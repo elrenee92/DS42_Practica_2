@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                Toast.makeText(this, "El nÃºmero de dados debe ser mayor a 0", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "El número de dados debe ser mayor a 0", Toast.LENGTH_SHORT).show()
             }
 
         }
