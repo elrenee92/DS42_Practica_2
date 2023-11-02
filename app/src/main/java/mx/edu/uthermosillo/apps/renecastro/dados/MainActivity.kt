@@ -18,15 +18,15 @@ class MainActivity : AppCompatActivity() {
 
         tirar.setOnClickListener {
 
-            val NumeroDeCaras = caras.text.toString()
-            val TextCaras = NumeroDeCaras.toInt()
-            val dadosText = dados.text.toString()
-            val numdados = dadosText.toInt()
+            val numerodecaras = caras.text.toString()
+            val numcaras = numerodecaras.toInt()
+            val numerodedados = dados.text.toString()
+            val numdados = numerodedados.toInt()
 
             if (numdados >=1){
 
-                val Multiplicacion = numdados * TextCaras
-                val dadoaleatoreo = ( numdados .. Multiplicacion).random()
+                val multiplicacion = numdados * numcaras
+                val dadoaleatoreo = ( numdados .. multiplicacion).random()
                 resultado.text = dadoaleatoreo.toString()
             }
             else
